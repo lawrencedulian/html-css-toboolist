@@ -5,12 +5,13 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 
 header {
-    width: 90%;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
+    /* width: 1450px; */
+    background-color: white;
+    padding: 0 1em;
+    line-height: 100px;
 }
 
 #logo-image {
@@ -21,5 +22,8 @@ header {
 #logo-name {
      vertical-align: middle;
      font-size: 3rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 
