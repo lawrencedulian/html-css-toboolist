@@ -8,7 +8,6 @@
 /* HEADER */
 
 header {
-    /* width: 1450px; */
     background-color: white;
     padding: 0 1em;
     line-height: 100px;
@@ -36,6 +35,40 @@ body{
    margin: 2em auto 1em;
 } 
 
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.done {
+    border: solid green 2px;
+    color: green;
+}   
+    
+.undone {
+    border: solid red 2px;
+    color: red;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-bottom: 1em;
+    color: #444851;
+}
+
 /* MAIN */
 
 .box-nav {
@@ -62,3 +95,48 @@ body{
     border: 1px solid lightgrey;
 }
 
+.box-task {
+    margin-top: 5px;
+    padding: 50px;
+    background-color: white;
+}
+
+.box-task h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #444851;
+}
+
+/* TAGS */
+.tag {
+    font-size: 1rem;
+    color: white;
+    padding: .3em .6em; 
+    border-radius: 10px;
+}
+
+.tag_ed {
+    background-color: #45ABEA;
+}
+
+.tag_q1 {
+    background-color: #9C72E4;
+}
+
+.tag_rec {
+    background-color: #64C0A9;
+}
+
+.tag_mob {
+    background-color: #F29E33;
+}
+
+.tag_web {
+    background-color: #D863A1;
+}
+
+.tag_sale {
+    background-color: #B0C926;
+}
